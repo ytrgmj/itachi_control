@@ -1,0 +1,37 @@
+{
+    "name": "@dt/itachi_control",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/ctrl.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://git.downtown8.com/global/itachi_control.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^25.1.2",
+        "jest": "^25.1.0",
+        "ts-jest": "^24.3.0",
+        "typescript": "^3.9.6"
+    },
+    "dependencies": {
+        "@dt/itachi_core": "1.0.0",
+        "@dt/itachi_orm": "1.0.0",
+        "@types/express": "^4.17.2",
+        "@types/node": "^13.7.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "ioredis": "^4.14.1",
+        "jsonwebtoken": "^8.5.1",
+        "lodash.findindex": "^4.6.0",
+        "@dt/node-healthcheck": "^1.0.6",
+        "socket.io": "^2.3.0",
+        "socket.io-redis": "^5.2.0"
+    }
+}
