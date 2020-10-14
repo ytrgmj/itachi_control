@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Wiget, Buffers } from '@dt/itachi_core';
+import { Wiget, Buffers } from 'itachi_core';
 export default class UploadWiget extends Wiget {
     private _buffers;
     private _name;

@@ -1,4 +1,4 @@
-import {AsyncBus,StrUtil,Buffers} from '@dt/itachi_core'
+import {AsyncBus,StrUtil,Buffers} from 'itachi_core'
 
 
 export default class UploadBus extends AsyncBus{

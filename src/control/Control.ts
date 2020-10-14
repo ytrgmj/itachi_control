@@ -4,7 +4,7 @@
 /**
  * 控制层父亲类
  */
-import { LogHelp, Context, Bean } from '@dt/itachi_core'
+import { LogHelp, Context, Bean } from 'itachi_core'
 import { Request, Response } from 'express'
 import _ from 'lodash'
 import underlineHump from '../util/underlineHump'

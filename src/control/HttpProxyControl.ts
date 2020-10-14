@@ -1,5 +1,5 @@
-import {ConfigFac,BeanUtil,BaseHttpEntry,HttpEntryFac, TimezoneServer, Bean} from '@dt/itachi_core'
-import {DateUtil} from '@dt/itachi_core'
+import {ConfigFac,BeanUtil,BaseHttpEntry,HttpEntryFac, TimezoneServer, Bean} from 'itachi_core'
+import {DateUtil} from 'itachi_core'
 import Control from './Control'
 import { Request, Response } from 'express'
 import findIndex from 'lodash.findindex'

@@ -1,7 +1,7 @@
 /**
  * 控制层父亲类
  */
-import { LogHelp, Context } from '@dt/itachi_core';
+import { LogHelp, Context } from 'itachi_core';
 import { Request, Response } from 'express';
 import BaseChecker from '../checker/BaseChecker';
 export default class Control {

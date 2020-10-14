@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * 控制层父亲类
  */
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 const underlineHump_1 = __importDefault(require("../util/underlineHump"));
 const dateConvert_1 = __importDefault(require("../util/dateConvert"));
 class Control {

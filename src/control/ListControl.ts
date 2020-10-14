@@ -1,5 +1,5 @@
-import {ArrayUtil} from "@dt/itachi_core";
-import {Cdt,Query, BaseCdt, Dao} from "@dt/itachi_orm";
+import {ArrayUtil} from "itachi_core";
+import {Cdt,Query, BaseCdt, Dao} from "itachi_orm";
 import Control from "./Control";
 
 /**

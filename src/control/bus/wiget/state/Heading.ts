@@ -1,4 +1,4 @@
-import {StrUtil} from '@dt/itachi_core'
+import {StrUtil} from 'itachi_core'
 import BaseUploadState from './BaseUploadState'
 
 var key  = 'Content-Disposition:';

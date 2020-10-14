@@ -21,7 +21,7 @@ export {default as SearcherControl} from './control/SearcherControl'
 
 export {default as NeedParam} from './decorator/NeedParam'
 
-export {ConfigFac} from '@dt/itachi_core'
+export {ConfigFac} from 'itachi_core'
 
 
 

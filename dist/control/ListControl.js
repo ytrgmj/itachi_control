@@ -12,8 +12,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const itachi_core_1 = require("@dt/itachi_core");
-const itachi_orm_1 = require("@dt/itachi_orm");
+const itachi_core_1 = require("itachi_core");
+const itachi_orm_1 = require("itachi_orm");
 const Control_1 = __importDefault(require("./Control"));
 /**
  * 查询（不包括group by）的控制类

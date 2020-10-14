@@ -1,4 +1,4 @@
-import {StrUtil,Buffers} from '@dt/itachi_core'
+import {StrUtil,Buffers} from 'itachi_core'
 import Control from './Control'
 import UploadBus from './bus/UploadBus'
 import { Request, Response } from 'express'

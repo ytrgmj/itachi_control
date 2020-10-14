@@ -1,12 +1,12 @@
 
-import HealthCheck from '@dt/node-healthcheck'
+
 import bodyParser from 'body-parser'
 import cors from 'cors'
 import express from 'express';
 import buildParam from './wiget/buildParam'
 import Socket from '../webSocket/Socket';
 import loadRouter from './wiget/loadRouter';
-import { Context} from '@dt/itachi_util';
+import { Context} from 'itachi_util';
 
 interface WebServerOption{
     /**
@@ -38,11 +38,14 @@ function createFun(clazz){
 }
   
 function initApp(app,opt){
-    HealthCheck.registerEndpoints(app) // 健康检查
+    
     app.use(bodyParser.json())
     app.use(bodyParser.urlencoded({
         extended: true
     }))
+    app.use('/debug/health',function(req,resp){
+        resp.send({})
+    })
     app.use(cors({maxAge:600}))
     app.use(buildParam(opt))
     

@@ -1,4 +1,4 @@
-import { Cdt, Query, BaseCdt, Dao } from "@dt/itachi_orm";
+import { Cdt, Query, BaseCdt, Dao } from "itachi_orm";
 import Control from "./Control";
 /**
  * 查询（不包括group by）的控制类

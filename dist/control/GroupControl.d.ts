@@ -1,5 +1,5 @@
 import ListControl from './ListControl';
-import { Query } from '@dt/itachi_orm';
+import { Query } from 'itachi_orm';
 /**
  * 做group by的control
  */

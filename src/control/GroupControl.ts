@@ -1,6 +1,6 @@
-import {ArrayUtil} from '@dt/itachi_core'
+import {ArrayUtil} from 'itachi_core'
 import ListControl from './ListControl'
-import { Query, BaseCdt ,Cdt} from '@dt/itachi_orm'
+import { Query, BaseCdt ,Cdt} from 'itachi_orm'
 
 /**
  * 做group by的control

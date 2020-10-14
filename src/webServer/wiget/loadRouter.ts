@@ -1,8 +1,8 @@
 import {Router} from 'express';
 import fs from 'fs';
 import path from 'path';
-import {StrUtil} from '@dt/itachi_core';
-import {Context} from '@dt/itachi_util';
+import {StrUtil} from 'itachi_core';
+import {Context} from 'itachi_util';
 
 
 

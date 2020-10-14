@@ -1,7 +1,7 @@
 /**
  * 重复检查
  */
-import { Query } from '@dt/itachi_orm';
+import { Query } from 'itachi_orm';
 import BaseChecker from './BaseChecker';
 interface RepeatCheckerOpt {
     /**
@@ -45,6 +45,6 @@ export default class RepeatChecker extends BaseChecker {
     protected _buildQuery(value: any, col: any, param: any): Query;
     getCol(): any;
 }
-import { Dao } from '@dt/itachi_orm';
-import { Context } from '@dt/itachi_util';
+import { Dao } from 'itachi_orm';
+import { Context } from 'itachi_util';
 export {};

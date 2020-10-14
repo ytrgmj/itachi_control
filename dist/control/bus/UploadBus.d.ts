@@ -1,4 +1,4 @@
-import { AsyncBus, Buffers } from '@dt/itachi_core';
+import { AsyncBus, Buffers } from 'itachi_core';
 export default class UploadBus extends AsyncBus {
     private _wiget;
     process(buffers: Buffers): Promise<{

@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const itachi_core_1 = require("@dt/itachi_core");
+const itachi_core_1 = require("itachi_core");
 const BaseUploadState_1 = __importDefault(require("./BaseUploadState"));
 var key = 'Content-Disposition:';
 class Heading extends BaseUploadState_1.default {

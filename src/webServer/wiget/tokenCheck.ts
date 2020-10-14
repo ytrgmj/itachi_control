@@ -1,4 +1,4 @@
-import {ArrayUtil} from '@dt/itachi_core'
+import {ArrayUtil} from 'itachi_core'
 import JwtToken from './JwtToken'
 import findIndex from 'lodash.findindex'
 

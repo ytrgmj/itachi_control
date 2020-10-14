@@ -1,4 +1,4 @@
-import {BeanUtil,DateUtil, Bean} from '@dt/itachi_core'
+import {BeanUtil,DateUtil, Bean} from 'itachi_core'
 
 function process(data ,key,val){
     if(val != null && val instanceof Date ){

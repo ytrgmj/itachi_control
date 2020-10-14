@@ -1,5 +1,5 @@
 import IoRedis from 'ioredis'
-import {ConfigFac} from '@dt/itachi_core'
+import {ConfigFac} from 'itachi_core'
 
 var get = function ():IoRedis.Redis {
       var redisConfig = ConfigFac.get('redis');

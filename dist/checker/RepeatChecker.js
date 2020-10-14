@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * 重复检查
  */
-const itachi_orm_1 = require("@dt/itachi_orm");
+const itachi_orm_1 = require("itachi_orm");
 const BaseChecker_1 = __importDefault(require("./BaseChecker"));
 class RepeatChecker extends BaseChecker_1.default {
     constructor(opt) {
@@ -150,4 +150,4 @@ class RepeatChecker extends BaseChecker_1.default {
 }
 exports.default = RepeatChecker;
 const Control_1 = __importDefault(require("../control/Control"));
-const itachi_util_1 = require("@dt/itachi_util");
+const itachi_util_1 = require("itachi_util");

@@ -1,6 +1,6 @@
 
 import Control from './Control'
-import { Dao } from '@dt/itachi_orm';
+import { Dao } from 'itachi_orm';
 /**
  * 处理单条数据
  */

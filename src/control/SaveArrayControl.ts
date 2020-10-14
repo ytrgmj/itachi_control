@@ -1,8 +1,8 @@
 /**
  * 适合保存多条数据的
  */
-import {Dao,SyncData} from '@dt/itachi_orm'
-import {ArrayUtil} from '@dt/itachi_core'
+import {Dao,SyncData} from 'itachi_orm'
+import {ArrayUtil} from 'itachi_core'
 import Control from './Control'
 
 

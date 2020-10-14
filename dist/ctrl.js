@@ -28,7 +28,7 @@ var SearcherControl_1 = require("./control/SearcherControl");
 Object.defineProperty(exports, "SearcherControl", { enumerable: true, get: function () { return SearcherControl_1.default; } });
 var NeedParam_1 = require("./decorator/NeedParam");
 Object.defineProperty(exports, "NeedParam", { enumerable: true, get: function () { return NeedParam_1.default; } });
-var itachi_core_1 = require("@dt/itachi_core");
+var itachi_core_1 = require("itachi_core");
 Object.defineProperty(exports, "ConfigFac", { enumerable: true, get: function () { return itachi_core_1.ConfigFac; } });
 var Control_1 = require("./control/Control");
 Object.defineProperty(exports, "Control", { enumerable: true, get: function () { return Control_1.default; } });

@@ -1,7 +1,7 @@
 /**
  * 重复检查
  */
-import {Query,BaseCdt} from '@dt/itachi_orm';
+import {Query,BaseCdt} from 'itachi_orm';
 
 import BaseChecker from './BaseChecker';
 
@@ -167,5 +167,5 @@ export default class RepeatChecker extends BaseChecker{
     
 }
 import Control from '../control/Control';
-import {Dao} from '@dt/itachi_orm'
-import { Context, ArrayUtil } from '@dt/itachi_util';
+import {Dao} from 'itachi_orm'
+import { Context, ArrayUtil } from 'itachi_util';

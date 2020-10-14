@@ -1,7 +1,7 @@
 /**
  * 适合保存多条数据的
  */
-import { Dao, SyncData } from '@dt/itachi_orm';
+import { Dao, SyncData } from 'itachi_orm';
 import Control from './Control';
 export default abstract class SaveArrayControl extends Control {
     abstract getTableName(): string;
